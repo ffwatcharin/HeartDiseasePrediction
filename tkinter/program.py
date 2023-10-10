@@ -25,6 +25,8 @@ class App(ctk.CTk):
         self.nameEntry = ctk.CTkEntry(self,
                                       placeholder_text="Enter name krub")
         self.nameEntry.place(x=150, y=80)
+        self.genderVar = tk.StringVar(value="Prefer\
+                                         not to say")
 
 
 if __name__ == "__main__":
